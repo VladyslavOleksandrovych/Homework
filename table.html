@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Block Layout</title>
-<link rel="stylesheet" href="reset.css">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Mondrian Table</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="container">
-  <div class="block block1">1</div>
-  <div class="block block2">2</div>
-  <div class="block block3">3</div>
-</div>
-
-<div class="container">
-  <div class="block block4">4</div>
-  <div class="block block5">5</div>
-</div>
-
-<div class="container">
-  <div class="block block6">6</div>
-</div>
-
-<div class="container">
-  <div class="block block7">7</div>
-  <div class="block block8">8</div>
-</div>
-
+    <div class="container">
+        <div class="row row-1">
+            <div class="block dark-grey" style="flex-basis: 33%;"></div>
+            <div class="block dark-green" style="flex-basis: 16.75%;"></div>
+            <div class="block dark-green" style="flex-basis: 16.75%;"></div>
+            <div class="block dark-green" style="flex-basis: 16.75%;"></div>
+            <div class="block light-green" style="flex-basis: 16.75%;"></div>
+        </div>
+        <div class="row row-2">
+            <div class="block intense-dark-green" style="flex-basis: 16.75%;"></div>
+            <div class="block dark-green" style="flex-basis: 16.75%;"></div>
+            <div class="block intense-dark-orange" style="flex-basis: 50%;"></div>
+            <div class="block light-green" style="flex-basis: 16.75%;"></div>
+        </div>
+        <div class="row row-3">
+            <div class="block blue" style="flex-basis: 50%;"></div>
+            <div class="block dark-green" style="flex-basis: 33%;"></div>
+            <div class="block dark-green" style="flex-basis: 16.75%;"></div>
+        </div>
+    </div>
 </body>
 </html>
