@@ -1,0 +1,60 @@
+@import url('reset.css');
+
+
+.table-container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.table-container h1 {
+font-size: 40px;
+font-weight: 900;
+}
+
+.table-container a {
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.table {
+  margin: 40px auto;
+}
+
+.table,
+.table th,
+.table td {
+  border: 2px solid rebeccapurple;
+  vertical-align: middle;
+}
+
+.table td {
+  width: 100px;
+  height: 100px;
+}
+
+.dark-grey {
+  background-color: darkgrey;
+}
+
+.dark-green {
+  background-color: darkgreen;
+}
+
+.light-green {
+  background-color: lightgreen;
+}
+
+.intense-dark-green {
+  background-color: #013220;
+}
+
+.intense-dark-orange {
+  background-color: darkorange;
+}
+
+.blue {
+  background-color: blue;
+}
