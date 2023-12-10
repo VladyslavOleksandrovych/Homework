@@ -58,12 +58,90 @@ font-weight: 900;
 .blue {
   background-color: blue;
 }
+/* INLINE */
+
+.first-row {
+	font-size: 0;
+	background: aqua;
+}
+
+.first-row > div {
+	width: 400px;
+	height: 400px;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.second-row {
+	font-size: 0;
+	background: yellow;
+}
+
+.second-row > div {
+	display: inline-block;
+	width: 800px;
+	font-size: 20px;
+	vertical-align: top;
+}
+.second-row > div > div {
+	height: 200px;
+}
+.second-row > div + div {
+	width: 400px;
+}
+.second-row > div + div > div {
+	height: 133.333px;
+}
+.third-row {
+	font-size: 0;
+}
+
+.third-row > div {
+	display: inline-block;
+	font-size: 20px;
+	vertical-align: top;
+}
+
+.third-row-first {
+	width: 400px;
+	height: 400px;
+	background: orange;
+}
+.third-row-second {
+	width: 800px;
+}
+
+.third-row-second-one {
+	height: 200px;
+	background: red;
+}
+
+.third-row-second-two {
+	font-size: 0;
+}
+
+.third-row-second-two > div {
+	display: inline-block;
+	font-size: 20px;
+	width: 400px;
+	height: 200px;
+	vertical-align: top;
+}
+
+.third-row-second-two > div + div > div {
+	height: 100px;
+	background: #000;
+	color: aliceblue;
+}
 
 .container-inline {
   width: 1200px;
   margin: 0 auto;
   text-align: center;
-  font-size: 0;
+}
+
+.container-inline div {
+	outline: 2px solid red;
 }
 
 .block {
@@ -76,58 +154,4 @@ font-weight: 900;
 .lime2 { background-color: lime; width: 400px; height: 200px; }
 .orange1 { background-color: orange; width: 400px; height: 200px; }
 .orange2 { background-color: orange; width: 800px; height: 200px;
-}
-.inner-block-lime1, 
-.inner-block-lime2, 
-.inner-block-lime3, 
-.inner-block-lime4, 
-.inner-block-lime5, 
-.inner-block-orange1, 
-.inner-block-orange2, 
-.inner-block-orange3, 
-.inner-block-orange4, 
-.inner-block-orange5
-{
-  outline: 1px solid rebeccapurple;
-}
-
-.inner-block-lime1 {
-  height: 100px;
-}
-.inner-block-lime2 { 
-  height: 100px;
-}
-.inner-block-lime3
-{
-  height: 66.66px;
-}
-.inner-block-lime4
-{
-  height: 66.66px;
-}
-.inner-block-lime5 {
-  height: 66.66px;
-}
-.inner-block-orange1
-{
-  height: 200px;
-}
-.inner-block-orange2
-{
-  height: 100px;
-}
-.inner-block-orange3
-{
-  height: 50px;
-  width: 400px;
-}
-.inner-block-orange4
-{
-  height: 25px;
-  width: 400px;
-}
-.inner-block-orange5
-{
-  height: 25px;
-  width: 400px;
 }
